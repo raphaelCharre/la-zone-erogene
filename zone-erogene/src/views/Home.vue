@@ -1,4 +1,5 @@
 <template>
+
     <home-online v-if="me()"></home-online>
     <home-offline v-else></home-offline>
 
